@@ -134,18 +134,18 @@ return [
             'search' => true,
         ],
         ['header' => 'main_navigation'],
-        [
+/*        [
             'text' => 'blog',
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
-        ],
+        ],*/
         [
             'text' => 'USER LIST',
             'url'  => '/users',
             'icon' => 'far fa-file',
             'role' => 'admin',    
         ],
-        ['header' => 'account_settings'],
+        /*['header' => 'account_settings'],
         [
             'text' => 'profile',
             'url'  => 'admin/settings',
@@ -206,7 +206,7 @@ return [
         [
             'text'       => 'information',
             'icon_color' => 'aqua',
-        ],
+        ],*/
     ],
 
     /*

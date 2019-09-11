@@ -1,5 +1,5 @@
  @extends('adminlte::page') 
-<!-- @extends(config('laravelusers.laravelUsersBladeExtended')) -->
+
 
 @section('template_title')
     {!! trans('laravelusers::laravelusers.editing-user', ['name' => $user->name]) !!}
