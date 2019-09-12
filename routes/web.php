@@ -11,16 +11,8 @@
 |
 */
 
-Route::get('/first', function () {
-    return view('first');
-});
-
 Route::get('/', function () {
     return view('welcome');
-});
-
-Route::get('/test', function () {
-    return view('test');
 });
 
 

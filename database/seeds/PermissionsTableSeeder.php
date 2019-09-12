@@ -27,7 +27,7 @@ class PermissionsTableSeeder extends Seeder
             ]);
         }
 
-        if (Permission::where('name', '=', 'Can Create Users')->first() === null) {
+        else if (Permission::where('name', '=', 'Can Create Users')->first() === null) {
             Permission::create([
                 'name'        => 'Can Create Users',
                 'slug'        => 'create.users',
@@ -36,7 +36,7 @@ class PermissionsTableSeeder extends Seeder
             ]);
         }
 
-        if (Permission::where('name', '=', 'Can Edit Users')->first() === null) {
+        else if (Permission::where('name', '=', 'Can Edit Users')->first() === null) {
             Permission::create([
                 'name'        => 'Can Edit Users',
                 'slug'        => 'edit.users',
@@ -45,7 +45,7 @@ class PermissionsTableSeeder extends Seeder
             ]);
         }
 
-        if (Permission::where('name', '=', 'Can Delete Users')->first() === null) {
+        else if (Permission::where('name', '=', 'Can Delete Users')->first() === null) {
             Permission::create([
                 'name'        => 'Can Delete Users',
                 'slug'        => 'delete.users',

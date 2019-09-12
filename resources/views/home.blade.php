@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'AdminLTE')
+@section('title', 'LaravelAPP')
 
 @section('content_header')
     <h1>Dashboard</h1>
@@ -12,7 +12,7 @@
     @role('student') 
     <h2>Student Dashboard</h2>
     @endrole
-    
+
 @stop
 
 @section('content')

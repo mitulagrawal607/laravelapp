@@ -15,7 +15,7 @@ class RolesTableSeeder extends Seeder
     {
         /*
          * Add Roles
-         *
+         * 
          */
         if (Role::where('name', '=', 'Admin')->first() === null) {
             $adminRole = Role::create([
@@ -26,7 +26,7 @@ class RolesTableSeeder extends Seeder
             ]);
         }
 
-        if (Role::where('name', '=', 'Teacher')->first() === null) {
+        else if (Role::where('name', '=', 'Teacher')->first() === null) {
             $userRole = Role::create([
                 'name'        => 'Teacher',
                 'slug'        => 'teacher',
@@ -35,7 +35,7 @@ class RolesTableSeeder extends Seeder
             ]);
         }
 
-        if (Role::where('name', '=', 'Student')->first() === null) {
+        else if (Role::where('name', '=', 'Student')->first() === null) {
             $userRole = Role::create([
                 'name'        => 'Student',
                 'slug'        => 'student',

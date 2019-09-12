@@ -1,3 +1,0 @@
-@extends('adminlte::page')
-
-hello
